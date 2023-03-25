@@ -1,0 +1,89 @@
+@import url(./reset.css);
+@import url(./normalize.css);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Outfit";
+  font-weight: normal;
+  src: url(../../assets/fonts/Outfit-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Outfit";
+  font-weight: 500;
+  src: url(../../assets/fonts/Outfit-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Outfit";
+  font-weight: bold;
+  src: url(../../assets/fonts/Outfit-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Outfit";
+  font-weight: 800;
+  src: url(../../assets/fonts/Outfit-ExtraBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Outfit";
+  font-weight: 900;
+  src: url(../../assets/fonts/Outfit-Black.ttf) format("truetype");
+}
+
+@layer components {
+  .hero-light-bg {
+    color: ;
+  }
+
+  .hero-dark-bg {
+    background-color: hsla(214, 100%, 5%, 1);
+    background-image: radial-gradient(
+        at 0% 0%,
+        hsla(222, 100%, 11%, 1) 0px,
+        transparent 50%
+      ),
+      radial-gradient(
+        at 100% 100%,
+        hsla(222, 100%, 11%, 1) 0px,
+        transparent 50%
+      );
+  }
+
+  .btn {
+    @apply text-sm xl:text-base font-medium flex items-center justify-center gap-1 border-2 border-transparent bg-primary text-white py-2 px-4 rounded-md transition duration-300 ease-in-out tracking-wider select-none;
+  }
+
+  .btn-outline {
+    @apply bg-transparent border-primary text-primary;
+  }
+
+  .btn-outline:hover {
+    @apply bg-primaryTransparent transition duration-300 ease-in-out;
+  }
+
+  .title {
+    @apply font-bold text-gray-700 text-4xl text-center dark:text-white;
+  }
+
+  .contact-input {
+    @apply w-full mt-1 border border-slate-200 dark:border-sky-900 dark:bg-bgDarkSecondary py-2 px-3 rounded-md focus-within:outline-none select-none;
+  }
+
+  .error-msg {
+    @apply text-red-500 text-sm;
+  }
+
+  .not-found-view {
+    height: calc(100vh - 56px);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
+}
