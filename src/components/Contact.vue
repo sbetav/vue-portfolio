@@ -132,7 +132,7 @@ const sendEmail = async () => {
                 formData.message = ''
 
                 loading.value = false
-                sendBtn.value.innerText = t('messageSent')
+                sendBtn.value.innerText = t('contact.form.sent')
                 setTimeout(() => {
                     sendBtn.value.disabled = false
                     sendBtn.value.innerText = 'Send'

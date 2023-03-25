@@ -34,6 +34,7 @@ export default {
       email: "Correo",
       message: "Mensaje",
       send: "Enviar",
+      sent: "Mensaje enviado!",
     },
   },
   validations: {
