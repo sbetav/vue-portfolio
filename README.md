@@ -1,16 +1,13 @@
 <h1 align="center">Porfolio Vue</h1>
 
-  <p align="center">
-    <a href="https://sbetav.me" target="_blank">View Demo</a>
-  </p>
-
 [![Portfolio Vue][product-screenshot]](https://sbetav.me)
+
+<a align="center" align href="https://sbetav.me" target="_blank">View Demo</a>
 
 ### Built With
 
 - [![Vue][vue.js]][vue-url]
 - [![Tailwind][tailwindcss]][tailwind-url]
-
 
 ## Project Setup
 
@@ -30,13 +27,11 @@ npm run dev
 npm run build
 ```
 
-
 ## Contact
 
 Santiago Betancur - santibeta82@gmail.com
 
 Project Link: [https://github.com/sbetav/vue-portfolio](https://github.com/sbetav/vue-portfolio)
-
 
 ## Acknowledgments
 
