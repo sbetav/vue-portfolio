@@ -2,7 +2,7 @@
 
 [![Portfolio Vue][product-screenshot]](https://sbetav.me)
 
-<a align="center" align href="https://sbetav.me" target="_blank">View Demo</a>
+<a align="center" href="https://sbetav.me">View Demo</a>
 
 ### Built With
 
