@@ -9,30 +9,35 @@
   font-family: "Outfit";
   font-weight: normal;
   src: url(../../assets/fonts/Outfit-Regular.ttf) format("truetype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Outfit";
   font-weight: 500;
   src: url(../../assets/fonts/Outfit-Medium.ttf) format("truetype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Outfit";
   font-weight: bold;
   src: url(../../assets/fonts/Outfit-Bold.ttf) format("truetype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Outfit";
   font-weight: 800;
   src: url(../../assets/fonts/Outfit-ExtraBold.ttf) format("truetype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Outfit";
   font-weight: 900;
   src: url(../../assets/fonts/Outfit-Black.ttf) format("truetype");
+  font-display: swap;
 }
 
 @layer components {

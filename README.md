@@ -1,8 +1,10 @@
-<h1 align="center">Porfolio Vuejs</h1>
+<h1 align="center">Porfolio Vue</h1>
 
   <p align="center">
     <a href="https://sbetav.me" target="_blank">View Demo</a>
   </p>
+
+[![Portfolio Vue][product-screenshot]](https://sbetav.me)
 
 ### Built With
 
@@ -38,8 +40,9 @@ Project Link: [https://github.com/sbetav/vue-portfolio](https://github.com/sbeta
 
 ## Acknowledgments
 
-- [Vuelidate](https://vuelidate-next.netlify.app/) - Used in form validatios
-- [i18n](https://vue-i18n.intlify.dev/) - Used for tranlation
+- [Emailjs](https://www.emailjs.com/) - Used for handle form submissions
+- [Vuelidate](https://vuelidate-next.netlify.app/) - Used in form validations
+- [i18n](https://vue-i18n.intlify.dev/) - Used for translation
 
 [product-screenshot]: src/assets/img//projects/portfolio.webp
 [vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D

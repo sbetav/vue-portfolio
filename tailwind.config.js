@@ -7,7 +7,7 @@ module.exports = {
         sans: ["Outfit", "sans-serif"],
       },
       colors: {
-        primary: "#0cc4f7",
+        primary: "#00b5e8",
         primaryTransparent: "rgba(12, 196, 247, 0.15)",
         bgDark: "#000c1c",
         bgDarkTransparent: "rgba(0, 12, 28, 0.7)",

@@ -2,14 +2,14 @@
     <section class="bg-bgLightSecondary dark:hero-dark-bg min-h-screen">
         <div
             class="max-w-7xl w-5/6 min-h-screen pt-20  flex flex-col items-center justify-center gap-9 m-auto lg:flex-row-reverse lg:justify-evenly">
-            <img src="../../src/assets/img/profile-pic.webp" alt="Santiago Betancur"
+            <img src="../../src/assets/img/profile-pic.webp" alt="Santiago Betancur" width="320" height="320"
                 style="border-radius: 47% 53% 53% 47% / 46% 47% 53% 54% ;"
                 class="w-60 border-8 border-solid border-primary md:w-72 xl:w-80 animate-radiusMorph select-none">
             <div class="text-center lg:text-left">
-                <h3 class="dark:text-gray-100 text-xl md:text-2xl xl:text-3xl">{{ t('home.title') }} 👋</h3>
-                <h1
+                <p class="dark:text-gray-100 text-xl md:text-2xl xl:text-3xl">{{ t('home.title') }} 👋</p>
+                <h2
                     class="text-2xl scale-110 sm:scale-100 sm:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-500 md:text-4xl xl:text-5xl">
-                    {{ t('home.subtitle') }}</h1>
+                    {{ t('home.subtitle') }}</h2>
                 <p class="dark:text-gray-100 text-xl md:text-2xl xl:text-3xl">{{ t('home.description') }}</p>
 
                 <div class="flex items-center justify-center gap-4 mt-5 lg:justify-start">
