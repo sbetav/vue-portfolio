@@ -35,7 +35,8 @@ Project Link: [https://github.com/sbetav/vue-portfolio](https://github.com/sbeta
 
 ## Acknowledgments
 
-- [Emailjs](https://www.emailjs.com/) - Used for handle form submissions
+- [Hero Icons](https://heroicons.com/) - Used for icons
+- [Emailjs](https://www.emailjs.com/) - Used for form submission
 - [Vuelidate](https://vuelidate-next.netlify.app/) - Used in form validations
 - [i18n](https://vue-i18n.intlify.dev/) - Used for translation
 
