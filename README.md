@@ -2,14 +2,14 @@
 
 [![Portfolio Vue][product-screenshot]](https://sbetav.me)
 
-<a align="center" href="https://sbetav.me">View Demo</a>
+<a align="center" href="https://sbetav.me" target="_blank">View Demo</a>
 
 ### Built With
 
 - [![Vue][vue.js]][vue-url]
 - [![Tailwind][tailwindcss]][tailwind-url]
 
-## Project Setup
+### Project Setup
 
 ```sh
 npm install
@@ -27,13 +27,13 @@ npm run dev
 npm run build
 ```
 
-## Contact
+### Contact
 
 Santiago Betancur - santibeta82@gmail.com
 
 Project Link: [https://github.com/sbetav/vue-portfolio](https://github.com/sbetav/vue-portfolio)
 
-## Acknowledgments
+### Acknowledgments
 
 - [Hero Icons](https://heroicons.com/) - Used for icons
 - [Emailjs](https://www.emailjs.com/) - Used for form submission
