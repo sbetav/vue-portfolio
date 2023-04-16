@@ -5,7 +5,7 @@
             <div class="flex items-center justify-center flex-wrap gap-8">
                 <div v-for="project in projects()" :key="project.title"
                     class="shadow-md bg-bgLightSecondary dark:bg-bgDarkSecondary border border-transparent dark:border-sky-900 max-w-xs rounded-xl overflow-hidden">
-                    <img :src="getImgUrl(project.img)" alt="project image">
+                    <img :src="getImgUrl(project.img)" alt="project image" width="320" height="240">
                     <div class="p-5 flex flex-col gap-5 border-t-2 border-primary">
                         <div class="flex flex-col gap-1">
                             <h3 class="text-primary text-2xl font-semibold">{{ project.title }}</h3>
