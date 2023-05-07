@@ -40,7 +40,7 @@ Project Link: [https://github.com/sbetav/vue-portfolio](https://github.com/sbeta
 - [Vuelidate](https://vuelidate-next.netlify.app/) - Used in form validations
 - [i18n](https://vue-i18n.intlify.dev/) - Used for translation
 
-[product-screenshot]: src/assets/img//projects/portfolio.webp
+[product-screenshot]: src/assets/img/portfolio.webp
 [vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [vue-url]: https://vuejs.org/
 [tailwindcss]: https://img.shields.io/static/v1?style=for-the-badge&message=Tailwind+CSS&color=222222&logo=Tailwind+CSS&logoColor=06B6D4&label=
