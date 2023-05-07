@@ -53,7 +53,7 @@ const projects = () => {
             description: "App para compartir enlaces construido con Vue 3, Tailwind CSS y Firebase.",
             img: 'mylinks.webp',
             code: 'https://github.com/sbetav/vue-my-links',
-            demo: 'https://mylinks.vercel.app/'
+            demo: 'https://vue-my-links.vercel.app/'
         },
         {
             title: "Tienda Online",
@@ -77,7 +77,7 @@ const projects = () => {
             description: "Web app to share links built with Vue 3, Tailwind CSS and Firebase.",
             img: 'mylinks.webp',
             code: 'https://github.com/sbetav/vue-my-links',
-            demo: 'https://mylinks.vercel.app/'
+            demo: 'https://vue-my-links.vercel.app/'
         },
         {
             title: "Ecommerce",
