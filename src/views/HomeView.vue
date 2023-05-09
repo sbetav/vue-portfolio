@@ -5,7 +5,7 @@
  import Contact from '../components/Contact.vue';
 </script>
 <template>
-  <main >
+  <main class="bg-white text-gray-600 selection:bg-gray-400 selection:text-white dark:bg-bgDark dark:text-gray-300">
     <Hero />
     <About />
     <Work />
