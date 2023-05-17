@@ -11,7 +11,7 @@
                 <nav ref="menu" class="hidden fixed top-0 right-0  w-full h-screen gap-10 text-lg backdrop-blur bg-bgLightTransparent dark:bg-bgDarkTransparent
                                                                                     lg:h-0 lg:flex lg:static lg:w-auto">
                     <ul
-                        class="text-center flex flex-col items-center relative justify-center gap-5 text-2xl max-w-screen-xl w-5/6 h-screen lg:flex-row lg:h-0 lg:text-lg m-auto whitespace-nowrap">
+                        class="text-center flex flex-col items-center relative justify-center gap-5 text-gray-600 dark:text-gray-300 text-2xl max-w-screen-xl w-5/6 h-screen lg:flex-row lg:h-0 lg:text-lg m-auto whitespace-nowrap">
                         <li>
                             <button aria-label="close-menu" @click="toggleMenu" class="lg:hidden">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -64,7 +64,7 @@
                         </svg>
                     </button>
                 </div>
-                <button ref="menuBtn" aria-label="open-menu" @click="toggleMenu" class="lg:hidden">
+                <button ref="menuBtn" aria-label="open-menu" @click="toggleMenu" class="lg:hidden dark:text-gray-300">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="w-8">
                         <path stroke-linecap="round" stroke-linejoin="round"
