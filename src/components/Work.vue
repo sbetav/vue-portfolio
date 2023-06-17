@@ -56,18 +56,18 @@ const projects = () => {
             demo: 'https://vue-my-links.vercel.app/'
         },
         {
+            title: "Astro Bytes",
+            description: "Blog de astronomía construido con el MERN stack.",
+            img: 'astro-bytes.webp',
+            code: 'https://github.com/sbetav/mern-astro-bytes',
+            demo: 'https://mern-astro-bytes.vercel.app/'
+        },
+        {
             title: "Tienda Online",
             description: "Tienda online construida con Vue 3 y Tailwind CSS.",
             img: 'ecommerce.webp',
             code: 'https://github.com/sbetav/vue-ecommerce',
             demo: 'https://vue-ecommerce-seven.vercel.app/'
-        },
-        {
-            title: "Portfolio Web",
-            description: "Sitio personal construido con Vue 3 y Tailwind CSS.",
-            img: 'portfolio.webp',
-            code: 'https://github.com/sbetav/vue-portfolio',
-            demo: '#'
         },
     ]
 
@@ -80,19 +80,19 @@ const projects = () => {
             demo: 'https://vue-my-links.vercel.app/'
         },
         {
+            title: "Astro Bytes",
+            description: "Astronomy blog built with the MERN stack.",
+            img: 'astro-bytes.webp',
+            code: 'https://github.com/sbetav/mern-astro-bytes',
+            demo: 'https://mern-astro-bytes.vercel.app/'
+        },
+        {
             title: "Ecommerce",
             description: "Ecommerce built with Vue 3 and Tailwind CSS",
             img: 'ecommerce.webp',
             code: 'https://github.com/sbetav/vue-ecommerce',
             demo: 'https://vue-ecommerce-seven.vercel.app/'
-        },
-        {
-            title: "Portfolio Website",
-            description: "Personal site built with Vue 3 and Tailwind CSS.",
-            img: 'portfolio.webp',
-            code: 'https://github.com/sbetav/vue-portfolio',
-            demo: '#'
-        },
+        }
     ]
 }
 
