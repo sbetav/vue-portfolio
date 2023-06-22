@@ -1,13 +1,12 @@
 import { ref } from "vue";
 
 export function Theme() {
-  const theme = ref("");
+  const theme = ref("dark"); // Set the default theme to "dark"
 
   const userTheme = localStorage.getItem("theme");
-  const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
   const themeCheck = () => {
-    if (userTheme == "dark" || (!userTheme && systemTheme)) {
+    if (userTheme === "dark" || !userTheme) {
       document.documentElement.classList.add("dark");
       theme.value = "dark";
     } else {
@@ -17,7 +16,7 @@ export function Theme() {
   };
 
   const themeSwitch = () => {
-    if (theme.value == "dark") {
+    if (theme.value === "dark") {
       theme.value = "light";
       localStorage.setItem("theme", "light");
       document.documentElement.classList.remove("dark");

@@ -78,7 +78,7 @@
 
   .error-msg {
     @apply text-red-500 text-sm;
-  }s
+  }
 
   .not-found-view {
     height: calc(100vh - 56px);
