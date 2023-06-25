@@ -53,7 +53,7 @@ const education = () => {
         {
             title: 'Desarrollo Frontend',
             institution: 'Alura Latam',
-            date: '2022 - Presente'
+            date: '2022 - 2023'
         }
     ]
 
@@ -66,7 +66,7 @@ const education = () => {
         {
             title: 'Frontend Development',
             institution: 'Alura Latam',
-            date: '2022 - Present'
+            date: '2022 - 2023'
         }
     ]
 }
