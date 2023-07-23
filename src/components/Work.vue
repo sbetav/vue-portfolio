@@ -63,6 +63,13 @@ const projects = () => {
             demo: 'https://mern-astro-bytes.vercel.app/'
         },
         {
+            title: "Librería",
+            description: "Prueba técnica resuelta con Vue 3 y Tailwind CSS.",
+            img: 'reading-list.webp',
+            code: "https://github.com/sbetav/pruebas-tecnicas/tree/main/pruebas/01-reading-list/sbetav",
+            demo: "https://reading-list-ten.vercel.app/"
+        },
+        {
             title: "Tienda Online",
             description: "Tienda online construida con Vue 3 y Tailwind CSS.",
             img: 'ecommerce.webp',
@@ -85,6 +92,13 @@ const projects = () => {
             img: 'astro-bytes.webp',
             code: 'https://github.com/sbetav/mern-astro-bytes',
             demo: 'https://mern-astro-bytes.vercel.app/'
+        },
+        {
+            title: "Reading List",
+            description: "Technical test solved with Vue 3 and Tailwind CSS.",
+            img: 'reading-list.webp',
+            code: "https://github.com/sbetav/pruebas-tecnicas/tree/main/pruebas/01-reading-list/sbetav",
+            demo: "https://reading-list-ten.vercel.app/"
         },
         {
             title: "Ecommerce",

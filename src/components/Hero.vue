@@ -4,7 +4,7 @@
             class="max-w-7xl w-5/6 min-h-screen pt-20  flex flex-col items-center justify-center gap-9 m-auto lg:flex-row-reverse lg:justify-evenly">
             <img src="../../src/assets/img/profile-pic.webp" alt="Santiago Betancur" width="320" height="320"
                 style="border-radius: 47% 53% 53% 47% / 46% 47% 53% 54% ;"
-                class="w-60 border-8 border-solid border-primary md:w-72 xl:w-80 animate-radiusMorph select-none">
+                class="w-60 border-8 border-solid border-primary md:w-72 xl:w-80 animate-radiusMorph select-none bg-white">
             <div class="text-center lg:text-left">
                 <p class="dark:text-gray-100 text-xl md:text-2xl xl:text-3xl">{{ t('home.title') }} 👋</p>
                 <h2
