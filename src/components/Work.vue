@@ -1,8 +1,8 @@
 <template>
     <section class="bg-slate-50 bg-opacity-75 dark:bg-transparent" id="work">
-        <div class="max-w-7xl w-5/6 m-auto flex flex-col gap-8 pt-20 pb-20">
+        <div class="max-w-7xl w-5/6 m-auto flex flex-col gap-8 pt-20 pb-20 justify-center items-center">
             <h2 class="title">{{ t('titles.work') }}<span class="text-primary">.</span></h2>
-            <div class="flex items-center justify-center flex-wrap gap-8">
+            <div class="flex items-center justify-center flex-wrap gap-8 max-w-4xl w-full">
                 <div v-for="project in projects()" :key="project.title"
                     class="shadow-md bg-bgLightSecondary dark:bg-bgDarkSecondary border border-transparent dark:border-sky-900 max-w-xs rounded-xl overflow-hidden">
                     <img :src="getImgUrl(project.img)" alt="project image" width="320" height="240">
