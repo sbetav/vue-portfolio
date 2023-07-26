@@ -21,7 +21,7 @@ export default {
   },
   about: {
     description:
-      "Hola! Mi nombre es Santiago Betancur, soy un desarrollador frontend residente en Colombia. Actualmente soy estudiante de ingeniería de software con una pasión por crear interfaces web. Mis habilidades más fuertes son HTML, CSS y JavaScript, estoy constantemente expandiendo mis conocimientos con nuevas tecnologías y herramientas. También cuento con experiencia usando frameworks como React y Vue.js.",
+      "Hola! Mi nombre es Santiago Betancur, soy un desarrollador frontend residente en Colombia. Actualmente soy estudiante de ingeniería de software Apasionado por crear interfaces web. Mis habilidades más fuertes son HTML, CSS y JavaScript, estoy constantemente expandiendo mis conocimientos con nuevas tecnologías y herramientas. También cuento con experiencia usando frameworks como React y Vue.",
   },
   work: {
     codeBtn: "Código",

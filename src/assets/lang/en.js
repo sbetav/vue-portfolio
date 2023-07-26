@@ -21,7 +21,7 @@ export default {
   },
   about: {
     description:
-      "Hi there! My name is Santiago Betancur, I'm a frontend developer based in Colombia. Currently I'm a software engineer student with a passion for creating beautiful and functional web interfaces. My strongest skills are HTML, CSS, and JavaScript, I'm constantly expanding my knowledge with new technologies and tools. Also I'm comfortable working with frameworks like React and Vue.js.",
+      "Hi there! My name is Santiago Betancur, I'm a frontend developer based in Colombia. Currently I'm a software engineer student with a passion for creating beautiful and functional web interfaces. My strongest skills are HTML, CSS, and JavaScript, I'm constantly expanding my knowledge with new technologies and tools. Also I'm comfortable working with frameworks like React and Vue",
   },
   work: {
     codeBtn: "Code",
