@@ -37,11 +37,11 @@
                     </div>
                 </div>
                 <div
-                    class="shadow-md bg-bgLightSecondary dark:bg-bgDarkSecondary border-2 border-dashed dark:border-sky-900 rounded-xl overflow-hidden flex items-center justify-center text-xl">
+                    class="hidden lg:flex shadow-md bg-bgLightSecondary dark:bg-bgDarkSecondary border-2 border-dashed dark:border-sky-900 rounded-xl overflow-hidden items-center justify-center text-xl">
                     Coming soon...
                 </div>
                 <div
-                    class="shadow-md bg-bgLightSecondary dark:bg-bgDarkSecondary border-2 border-dashed dark:border-sky-900 rounded-xl overflow-hidden flex items-center justify-center text-xl">
+                    class="hidden lg:flex shadow-md bg-bgLightSecondary dark:bg-bgDarkSecondary border-2 border-dashed dark:border-sky-900 rounded-xl overflow-hidden items-center justify-center text-xl">
                     Coming soon...
                 </div>
             </div>
