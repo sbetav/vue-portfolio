@@ -1,7 +1,7 @@
 <template>
     <header
         class="bg-bgLightTransparent dark:bg-bgDarkTransparent z-10 h-20 flex items-center justify-center fixed w-full outline outline-1 shadow shadow-gray-300 outline-gray-200 dark:shadow-none dark:outline-primary before:-z-10 before:absolute before:backdrop-blur before:w-full before:h-20">
-        <div class="flex justify-between max-w-7xl w-5/6">
+        <div class="flex justify-between max-w-custom w-5/6">
         <a href="#">
             <h1 class="select-none font-bold text-2xl text-gray-700 dark:text-white lg:text-3xl lg:scale-95">sbetav<span
                     class="text-primary">.</span>

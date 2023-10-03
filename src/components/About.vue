@@ -1,6 +1,6 @@
 <template>
     <section class="bg-bgLight flex items-center justify-center dark:bg-bgDarkSecondary" id="about">
-        <div class="flex flex-col gap-12 max-w-7xl w-5/6 pt-20 pb-20">
+        <div class="flex flex-col gap-12 max-w-custom w-5/6 pt-20 pb-20">
             <div class="flex flex-col gap-3">
                 <h2 class="title text-left">{{ t('titles.about') }}<span class="text-primary">.</span></h2>
                 <p class="text-lg">

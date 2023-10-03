@@ -1,7 +1,7 @@
 <template>
     <section class="contact-bg bg-bgLight dark:bg-bgDarkSecondary bg-cover bg-no-repeat" id="contact">
         <div
-            class="max-w-4xl w-5/6 m-auto pt-20 pb-20 grid grid-cols-1 grid-rows-1 place lg:grid-cols-2 lg:grid-rows-2 gap-y-6 gap-x-14">
+            class="max-w-custom w-5/6 m-auto pt-20 pb-20 grid grid-cols-1 grid-rows-1 place lg:grid-cols-2 lg:grid-rows-2 gap-y-6 gap-x-14">
             <div class="flex flex-col gap-1 w-full justify-center items-center lg:items-start lg:justify-end">
                 <h2 class="title text-left">{{ t('titles.contact') }}<span class="text-primary">.</span></h2>
                 <p class="text-center lg:text-left">{{ t('contact.subtitle') }}</p>

@@ -1,11 +1,11 @@
 <template>
     <section class="bg-slate-50 bg-opacity-75 dark:bg-transparent" id="work">
-        <div class="max-w-7xl w-5/6 m-auto flex flex-col gap-8 pt-20 pb-20 justify-center items-center">
+        <div class="max-w-custom m-auto flex flex-col gap-8 pt-20 pb-20 w-5/6">
             <h2 class="title">{{ t('titles.work') }}<span class="text-primary">.</span></h2>
-            <div class="flex items-center justify-center flex-wrap gap-8 max-w-4xl w-full">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
                 <div v-for="project in projects()" :key="project.title"
-                    class="shadow-md bg-bgLightSecondary dark:bg-bgDarkSecondary border border-transparent dark:border-sky-900 max-w-xs rounded-xl overflow-hidden">
-                    <img :src="getImgUrl(project.img)" alt="project image" width="320" height="240">
+                    class="shadow-md bg-bgLightSecondary dark:bg-bgDarkSecondary border border-transparent dark:border-sky-900  rounded-xl overflow-hidden">
+                    <img :src="getImgUrl(project.img)" alt="project image" class="w-full">
                     <div class="p-5 flex flex-col gap-5 border-t-2 border-primary">
                         <div class="flex flex-col gap-1">
                             <h3 class="text-primary text-2xl font-semibold">{{ project.title }}</h3>
@@ -36,6 +36,14 @@
                         </div>
                     </div>
                 </div>
+                <div
+                    class="shadow-md bg-bgLightSecondary dark:bg-bgDarkSecondary border-2 border-dashed dark:border-sky-900 rounded-xl overflow-hidden flex items-center justify-center text-xl">
+                    Coming soon...
+                </div>
+                <div
+                    class="shadow-md bg-bgLightSecondary dark:bg-bgDarkSecondary border-2 border-dashed dark:border-sky-900 rounded-xl overflow-hidden flex items-center justify-center text-xl">
+                    Coming soon...
+                </div>
             </div>
         </div>
     </section>
@@ -50,7 +58,7 @@ const projects = () => {
     if (t('titles.work') === 'Portafolio') return [
         {
             title: "My Links",
-            description: "App para compartir enlaces construido con Vue 3, Tailwind CSS y Firebase.",
+            description: "App para compartir enlaces construido con Vue 3 y Firebase.",
             img: 'mylinks.webp',
             code: 'https://github.com/sbetav/vue-my-links',
             demo: 'https://vue-my-links.vercel.app/'
@@ -81,7 +89,7 @@ const projects = () => {
     return [
         {
             title: "My Links",
-            description: "Web app to share links built with Vue 3, Tailwind CSS and Firebase.",
+            description: "Web app to share links built with Vue 3 and Firebase.",
             img: 'mylinks.webp',
             code: 'https://github.com/sbetav/vue-my-links',
             demo: 'https://vue-my-links.vercel.app/'
