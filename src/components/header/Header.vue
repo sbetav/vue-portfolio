@@ -45,7 +45,8 @@
                 </nav>
 
                 <div class="flex items-center justify-center gap-3">
-                    <select v-model="selectedLang"
+                    <label for="lang" class="sr-only">Select language</label>
+                    <select v-model="selectedLang" id="lang"
                         class=" text-primary focus:border-none focus:outline-none bg-transparent cursor-pointer">
                         <option class="dark:bg-bgDarkSecondary" @click="changeLanguage('en')" value="en">EN</option>
                         <option class="dark:bg-bgDarkSecondary" @click="changeLanguage('es')" value="es">ES</option>
