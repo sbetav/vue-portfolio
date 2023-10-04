@@ -5,6 +5,7 @@ import router from "./router";
 import "./assets/styles/main.css";
 import en from "./assets/lang/en.js";
 import es from "./assets/lang/es.js";
+import { inject } from "@vercel/analytics";
 
 const i18n = createI18n({
   locale: localStorage.getItem("lang") || "en",
@@ -15,6 +16,8 @@ const i18n = createI18n({
 });
 
 const app = createApp(App);
+
+inject();
 
 app.use(i18n);
 app.use(router);
