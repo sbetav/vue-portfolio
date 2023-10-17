@@ -34,6 +34,7 @@ export default {
       email: "Email",
       message: "Message",
       send: "Send",
+      sending: "Sending",
       sent: "Message sent!",
     },
   },

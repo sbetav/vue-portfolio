@@ -39,12 +39,9 @@
                     <span ref="sendBtnText" v-show="!loading">
                         {{ t('contact.form.send') }}
                     </span>
-                    <div v-show="loading" class="flex items-center justify-center">
-                        <div class="inline-block h-5 w-5 animate-spin rounded-full border-2 border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]"
-                            role="status">
-                            <span
-                                class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Loading...</span>
-                        </div>
+                    <div v-show="loading" class="flex items-center justify-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="animate-spin"><path d="M21 12a9 9 0 1 1-6.219-8.56"/></svg>
+                        {{ t('contact.form.sending') }}
                     </div>
                 </button>
             </form>
