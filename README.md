@@ -1,8 +1,8 @@
 <h1 align="center">Porfolio Vue</h1>
 
-[![Portfolio Vue][product-screenshot]](https://sbetav.me)
+[![Portfolio Vue][product-screenshot]](https://vue-portfolio-iota.vercel.app)
 
-<a align="center" href="https://sbetav.me" target="_blank">View Demo</a>
+<a align="center" href="https://vue-portfolio-iota.vercel.app" target="_blank">View Demo</a>
 
 ### Built With
 
@@ -31,7 +31,7 @@ npm run build
 
 Santiago Betancur - santibeta82@gmail.com
 
-Project Link: [https://github.com/sbetav/vue-portfolio](https://github.com/sbetav/vue-portfolio)
+Project Link: [[https://github.com/sbetav/vue-portfolio](https://github.com/sbetav/vue-portfolio)](https://vue-portfolio-iota.vercel.app)
 
 ### Acknowledgments
 
